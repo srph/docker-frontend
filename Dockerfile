@@ -5,7 +5,7 @@ RUN apt-get update \
   && apt-get install nodejs nginx \
   && rm -rf /var/lib/apt/lists/*
 
-COPY docker/nginx.conf /etc/nginx/conf.d/default.conf
+COPY config/nginx.conf /etc/nginx/conf.d/default.conf
 WORKDIR /usr/share/nginx/html
 RUN npm install
 
