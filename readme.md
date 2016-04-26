@@ -2,7 +2,7 @@
 ```bash
 $ docker build -t srph/frontend
 ```
-Dockerfile for frontend, based on [`srph/debian-es`](https://github.com/srph/docker-debian-es). Sets up latest `node 5.x`, `npm 3.x`, and `nginx 1.9.x`.
+Dockerfile for frontend, based on [`srph/debian-es`](https://github.com/srph/docker-debian-es). Sets up `node 5.x`, `npm 3.x`, and `nginx 1.9.x`.
 
 ## Example Dockerfile
 ```Dockerfile
